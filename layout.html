@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+      <title>Sample Layout</title>
+      <link href="layout.css" rel="stylesheet" type="text/css" > 
+  <style>
+body {
+  margin:0;
+  padding:0;
+  min-width: 525px;
+}
+
+header {
+  float: left;
+  width: 100%;
+}
+
+footer {
+  position:relative;
+  float: left;
+  width: 100%;
+  background-color: #cccccc;
+  text-align:center;
+  font-style: italic;
+}
+
+#wrapper {
+  float: left;
+  padding-left: 200px;
+  padding-right: 125px;
+  overflow: hidden;
+}
+
+#left_side {
+  position: relative;
+  float: left;
+  width: 16%;
+  background-color: #f65e00;
+  right: 200px;
+  margin-left: -100%;
+  margin-bottom: -2000px;
+  padding-bottom: 2000px;
+
+}
+
+#right_side {
+  position: relative;
+  float: left;
+  width: 125px;
+  background-color: #5e0978;
+  margin-right: -125px;
+  margin-bottom: -2000px;
+  padding-bottom: 2000px;
+
+}
+
+#content_area {
+  position: relative;
+  float: left;
+  background-color: #ffffff;
+  width: 100%;
+  margin-bottom: -2000px;
+  padding-bottom: 2000px;
+
+}
+
+h1 {
+  margin: 0;
+}
+
+#left_side ul {
+  list-style: none;
+  margin: 12px 0px 0px 12px;
+  padding: 0px;
+}
+
+#left_side li a:link, #nav li a:visited {
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 3px 0px 3px 3px;
+  color: #000000;
+  text-decoration: none;
+  display: block;
+}
+
+#left_side li a:hover, #nav li a:active {
+  font-size: 12pt; 
+  font-weight: bold;
+  padding: 3px 0px 3px 3px;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+}
+
+p {
+    padding: 10px;
+}
+  </style> 
+  </head>
+
+  <body>
+       <header><img src="acmewidgets.JPG" alt="ACME Widgets
+           LLC"></header>
+       <div id="wrapper">
+              <div id="content_area">
+                <h1>Welcome to ACME Widgets!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Nam tincidunt posuere malesuada. Suspendisse ac felis ac ante
+                tincidunt ullamcorper. Nulla vitae ligula vitae mi rhoncus
+                adipiscing. Etiam congue felis id ante semper at imperdiet
+                massa tempor. Nullam hendrerit fermentum ligula, sit amet
+                pellentesque purus faucibus in. Sed molestie lacus mauris,
+                ultrices accumsan sem. Phasellus facilisis malesuada sem, nec
+                ornare ipsum dictum consectetur.</p>
+                <p>Nulla libero nisl, consectetur eget accumsan vel, interdum
+                vitae enim vitae nulla feugiat dignissim ut sit amet odio.
+                Nunc non enim id sem faucibus congue. Integer ac mi in justo
+                euismod sodales. Aenean imperdiet vestibulum auctor. Sed
+                ullamcorper congue ipsum, eget vulputate sem scelerisque in.
+                Donec ornare vestibulum congue. Etiam sapien nulla, rutrum
+                mattis mattis ut, pellentesque eget augue. Proin nisl mauris,
+                suscipit quis elementum ac, vestibulum quis lacus. Ut eget
+                justo vitae urna varius sodales. </p>
+              </div>
+              <div id="left_side">
+                <ul>
+                <li><a href="#">Mission</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Executive Team</a></li>
+                <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+              <div id="right_side">
+                <p><strong>SPECIAL WIDGET DEAL!</strong></p>
+                <p>Buy three widgets and get a fourth for free. Act now!</p>
+              </div>
+       </div>
+       <footer>Copyright information usually goes here in the footer.</footer>
+  </body>
+</html>
